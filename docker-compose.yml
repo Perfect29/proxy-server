@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  proxy:
+    build: .
+    container_name: proxy-server
+    ports:
+      - "8080:8080"
